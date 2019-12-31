@@ -16,6 +16,16 @@ export default new Router ({
             name : 'about',
             component : () => import ('./pages/About.vue'),
         },
+        {
+            path : '/register',
+            name : 'register',
+            component : () => import ('./pages/Register.vue'),
+        },
+        {
+            path : '/user',
+            name : 'user',
+            component : () => import ('./pages/User.vue'),
+        },
     ],
 })
 
