@@ -2,7 +2,7 @@
   <div class="Query">
     <el-container>
       <el-aside width="25%">
-          <h3 class="head">朋友，想找到心仪的实习吗？</h3>
+          <h3 class="head">朋友，想找份心仪的实习吗？</h3>
           <el-form ref="form" :model="form" label-width="80px">
               <el-form-item label="实习岗位">
                 <el-input v-model="form.title"></el-input>
@@ -12,7 +12,7 @@
                 <el-input v-model="form.city"></el-input>
               </el-form-item>
 
-              <el-form-item label="查询个数" placeholder="请选择活动区域">
+              <el-form-item label="查询个数">
                 <el-input v-model="form.limit"></el-input>
               </el-form-item>
 
