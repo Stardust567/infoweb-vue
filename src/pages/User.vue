@@ -1,16 +1,16 @@
 <template>
   <div class="user">
-    <User></User>
+    <Query></Query>
   </div>
 </template>
 
 <script>
-import User from '../components/User.vue'
+import Query from '../components/Query.vue'
 
 export default {
   name: 'user',
   components: {
-    User
+    Query
   }
 }
 </script>
