@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d207d33"],{a1d1:function(t,e,n){"use strict";n.r(e);var i=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},a=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"about"},[n("div",[t._v("注册并登录成功后，")]),n("div",[t._v("会自动跳转到信息查询页面，")]),n("div",[t._v("同时导航菜单会多出用户栏，")]),n("div",[t._v("祝您玩得愉快。")])])}],c=n("2877"),s={},u=Object(c["a"])(s,i,a,!1,null,null,null);e["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-2d207d33.e6538d1c.js.map
