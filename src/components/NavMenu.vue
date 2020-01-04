@@ -28,7 +28,9 @@ export default {
 
 <style>
 .NavMenu {
-    margin: 10px 10px 20px 10px;
+    
+    margin: 10px 10px 18px 10px;
+    background-color: #F6FCFE;
   }
 
 .el-menu-item {

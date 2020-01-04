@@ -15,6 +15,7 @@
 import Login from '../components/Login.vue'
 import Hello from '../components/Hello.vue'
 
+
 export default {
   name: 'home',
   components: {
@@ -25,11 +26,8 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #409EFF;
-}
+  .home {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    background-color: #F6FCFE;
+  }
 </style>

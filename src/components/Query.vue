@@ -27,11 +27,16 @@
       <el-table
         :data="tableData"
         style="width: 100%">
-        <el-table-column prop="title" label="岗位名称" width="220"></el-table-column>
-        <el-table-column prop="salary" label="预计薪资" width="150"></el-table-column>
+        <el-table-column prop="title" label="岗位名称" width="240"></el-table-column>
+        <el-table-column prop="salary" label="预计薪资" width="140"></el-table-column>
         <el-table-column prop="city" label="工作地点" width="150"></el-table-column>
-        <el-table-column prop="time" label="发布时间" width="250"></el-table-column>
+        <el-table-column prop="time" label="发布时间" width="240"></el-table-column>
         <el-table-column prop="company" label="公司名称"></el-table-column>
+        <el-table-column fixed="right" label="操作" width="80">
+          <template slot-scope="scope">
+            <el-button @click="handleClick(scope.row)" type="text" size="small">详情页</el-button>
+          </template>
+        </el-table-column>
       </el-table>
     </el-main>
     </el-container>
@@ -84,6 +89,9 @@
           message: error,
         });
       });
+    },
+    handleClick(row) {
+      window.open(row.link);
     },
   },
   components: {

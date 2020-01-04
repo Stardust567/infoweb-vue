@@ -1,7 +1,7 @@
 <template>
   <div class="Login">
     <el-card class="login-card">
-    <h3 class="head">一起来打开新世界的大门吧</h3>
+    <img src="https://i.loli.net/2020/01/04/FLq4mjl8Me9c6W5.jpg" class="login-image">
     <el-form ref="form" :model="form" label-width="80px">
         <el-form-item label="用户名">
             <el-input v-model="form.user_name"></el-input>
@@ -79,10 +79,9 @@
 .login-card {
     margin: 10px 10px 20px 10px;
   }
-  
-.head {
-    color: #909399;
-    font-family: "Hiragino Sans GB";
-    line-height: 1.5;
-  }
+
+.login-image {
+    width: 75%;
+    margin: 5px;
+}
 </style>

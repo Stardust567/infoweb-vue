@@ -11,7 +11,7 @@ export default {
   name: 'user',
   components: {
     Query
-  }
+  },
 }
 </script>
 
