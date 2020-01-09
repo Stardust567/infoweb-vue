@@ -2,7 +2,7 @@
   <div class="Login">
     <el-card class="login-card">
     <img src="https://i.loli.net/2020/01/04/FLq4mjl8Me9c6W5.jpg" class="login-image">
-    <el-form ref="form" :model="form" label-width="80px">
+    <el-form ref="form" :model="form" label-width="70px">
         <el-form-item label="用户名">
             <el-input v-model="form.user_name"></el-input>
         </el-form-item>
@@ -77,11 +77,12 @@
 
 <style>
 .login-card {
-    margin: 10px 10px 20px 10px;
+    margin-left: 10px;
+    margin-top: 18px;
   }
 
 .login-image {
-    width: 75%;
-    margin: 5px;
+    width: 65%;
+    margin: 3px;
 }
 </style>

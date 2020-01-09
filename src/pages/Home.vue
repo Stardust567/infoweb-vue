@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <el-container>
-      <el-aside width="25%">
+      <el-aside width="24%">
         <Login></Login>
       </el-aside>
       <el-main >

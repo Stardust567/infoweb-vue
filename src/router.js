@@ -17,6 +17,16 @@ export default new Router ({
             component : () => import ('./pages/About.vue'),
         },
         {
+            path : '/blog',
+            name : 'blog',
+            component : () => import ('./pages/Blog.vue'),
+        },
+        {
+            path : '/git',
+            name : 'git',
+            component : () => import ('./pages/Git.vue'),
+        },
+        {
             path : '/register',
             name : 'register',
             component : () => import ('./pages/Register.vue'),

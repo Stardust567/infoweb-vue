@@ -11,8 +11,8 @@
         >
         <el-menu-item index="/">首页</el-menu-item>
         <el-menu-item index="about">关于</el-menu-item>
-        <el-menu-item index="4"><a href="https://stardust567.github.io/" target="_blank">友链</a></el-menu-item>
-        <el-menu-item index="5"><a href="https://github.com/Stardust567?tab=repositories" target="_blank">Git</a></el-menu-item>
+        <el-menu-item index="blog"><a href="https://stardust567.github.io/" target="_blank">友链</a></el-menu-item>
+        <el-menu-item index="git"><a href="https://github.com/Stardust567?tab=repositories" target="_blank">Git</a></el-menu-item>
         <el-menu-item index="user"> {{ $store.getters.user_name }} </el-menu-item>
         
     </el-menu>
@@ -29,7 +29,7 @@ export default {
 <style>
 .NavMenu {
     
-    margin: 10px 10px 18px 10px;
+    margin: 10px 10px 10px 10px;
     background-color: #F6FCFE;
   }
 
